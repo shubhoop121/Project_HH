@@ -1,2 +1,2 @@
 # Project_HH
- Real state website Based on  NodeJS
+ "Heaven Homes" is a comprehensive real estate platform designed to offer a seamless experience for individuals searching for homes and apartments. Built using a stack of modern technologies including HTML, CSS, JavaScript, Node.js, and MongoDB, our website provides a user-friendly interface for browsing property listings, comparing options, and connecting with sellers or agents. With intuitive design and robust backend functionalities, "Heaven Homes" aims to simplify the home-buying process, making it easier than ever for users to find their dream home. Whether you're a first-time buyer or looking to upgrade, "Heaven Homes" is your trusted partner in finding the perfect place to call home.
