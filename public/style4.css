@@ -1,0 +1,101 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    color: #333;
+}
+
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+header {
+    background-image: url(header.jpg);
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+
+h1, h2, h3 {
+    color: #2c3e50; 
+}
+
+
+#contact-hero {
+    background-color: #f0f0f0;
+    color: #222;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+
+#contact-info {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: flex-start; 
+    padding: 40px;
+    margin-bottom: 40px;
+}
+
+#contact-info div { 
+    flex: 1; 
+}
+
+.icon-phone, 
+.icon-email, 
+.icon-location { 
+    margin-right: 10px;
+    color: #2c3e50;
+    font-size: 1.2em; 
+}
+
+#contact-form form {
+    max-width: 500px; 
+    margin: 0 auto; 
+}
+
+input,  textarea {
+    width: 100%; 
+    padding: 15px;
+    margin-bottom: 15px; 
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.submit-button {
+    background-color: #2c3e50;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #2980b9; 
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+@media (max-width: 768px) {
+    #contact-info {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    #contact-info div {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}

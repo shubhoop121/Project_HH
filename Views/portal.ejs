@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heaven Homes - Portal</title>
+    <link rel="stylesheet" href="p_style.css">
+</head>
+<body>
+    <main>
+        <section id="user-details">
+            <h2>Welcome to Heaven Homes</h2>
+            <% if(user) { %>
+                <p>Welcome, <%= user.fullname %>!</p>
+                <p>Email: <%= user.email %></p>
+            <% } else { %>
+                <p>User details not found</p>
+            <% } %>
+            <a href="/logout">Logout</a>
+        </section>
+    </main>
+</body>
+</html>

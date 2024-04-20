@@ -1,0 +1,73 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: beige; 
+}
+
+header {
+    background-image: url("header.jpg"); 
+    background-size: cover; 
+    background-position: center; 
+    color: white;
+    padding: 30px 0; 
+    text-align: center;
+    position: relative; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url("pexels-david-mcbee-1546168.jpg"); 
+    background-size: cover;
+    background-position: center;
+    color: #c71515;
+    text-align: center;
+    padding: 100px 0;
+}
+
+
+
+
+.featured-listings {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 20px; 
+}
+
+.listing-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.button { 
+    background-color: #204060;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+}
+
+
+.about, .contact {
+    padding: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+} 
